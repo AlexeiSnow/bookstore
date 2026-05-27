@@ -14,6 +14,7 @@
 ```
 
 2. Создать файл `.env` в корне проекта:
+```bash
 SECRET_KEY=django-insecure-bookstore-secret-key-change-in-production
 DEBUG=False
 DB_NAME=bookstore
@@ -22,6 +23,7 @@ DB_PASSWORD=240472
 DB_HOST=db
 DB_PORT=5432
 REDIS_URL=redis://redis:6379/0
+```
 
 3. Запустить контейнеры:
 ```bash
