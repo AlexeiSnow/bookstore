@@ -1,0 +1,1590 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "books",
+    "model": "book"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "books",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "books",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "clockedschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "crontabschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "intervalschedule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictask"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "periodictasks"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "django_celery_beat",
+    "model": "solarschedule"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m1mmlvkspbagm6imaqisyvv95jqbsuh9",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAQAP-yNbJsNr5S0ucN0dq7xgHkSDkqxN9RpBTQzozmDSPtWx33VZZxYugB4fLLEuWntEPwg9p9Vnlu2zIldSTqtKsaZpbX7Wz_BpXWCj3Eqzc6m4DJh87GogOXHLqMxokkMQZFuy5yQiwxuJDFMjli68iQjwifL89HN7U:1wS657:R8A4SGKB6wsn7yOzKI2jOLgQgCrQCR5H2PVIocmRw9M",
+    "expire_date": "2026-06-10T04:41:25.344Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x4badioavbk3bmqxym0z1f490uf7vum4",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4bwlG6P3vsNZLuAVA0kpT0Z_9006UGvM5N5Q6B9K2HvaQ1LhBEUXH7ZTPxM9RDxQfXeBLe6rcssjkSctoupxfS6ne3foFAvMEJGh8xKEdnMjq_aGclW-zgYzxwl-qwIrUSHg-XsFUnDnix5pZNBhs8X4iI3pA:1wS4VL:C475r8uHqClcK6nFC7yLtI8DkTo0qVquON2xBYPA_Vg",
+    "expire_date": "2026-06-10T03:00:23.465Z"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 1,
+  "fields": {
+    "name": "Фентези"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 2,
+  "fields": {
+    "name": "Детектив"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 3,
+  "fields": {
+    "name": "Фантастика"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 4,
+  "fields": {
+    "name": "Русская классика"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 6,
+  "fields": {
+    "name": "Хорор"
+  }
+},
+{
+  "model": "books.category",
+  "pk": 7,
+  "fields": {
+    "name": "Психология"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 1,
+  "fields": {
+    "title": "Властелин колец",
+    "author": "Джон Рональд Руэл Толкин",
+    "category": 1,
+    "year": 1954,
+    "description": "«Властели́н коле́ц» — эпический роман английского писателя и филолога Джона Р. Р. Толкина. Его действие происходит в мире Средиземья. Изначально книга задумывалась в качестве продолжения детской повести «Хоббит, или Туда и обратно», но развилась в гораздо более масштабное произведение.",
+    "cover": "covers/Lord_0Zrnoau.webp",
+    "buy_price": "900.00",
+    "rent_price_2w": "100.00",
+    "rent_price_1m": "200.00",
+    "rent_price_3m": "500.00",
+    "is_available": true,
+    "created_at": "2026-05-27T01:17:43.321Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 2,
+  "fields": {
+    "title": "Собачье сердце",
+    "author": "Михаил Булгаков",
+    "category": 4,
+    "year": 1968,
+    "description": "«Собачье сердце» — повесть Михаила Булгакова 1925 года. Острая сатира на большевизм, она была написана в разгар периода НЭПа, когда коммунизм в СССР, на первый взгляд, начал сдавать позиции.",
+    "cover": "covers/ce9168ea-2f18-443c-8c05-216a50e22c6a_kNkjqLd.jpg",
+    "buy_price": "800.00",
+    "rent_price_2w": "150.00",
+    "rent_price_1m": "300.00",
+    "rent_price_3m": "500.00",
+    "is_available": true,
+    "created_at": "2026-05-27T01:18:58.196Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 3,
+  "fields": {
+    "title": "Десять негритят",
+    "author": "Агата Кристи",
+    "category": 2,
+    "year": 1939,
+    "description": "Десять никак не связанных между собой людей в особняке на уединенном острове... Кто вызвал их сюда таинственным приглашением? Зачем кто-то убивает их, одного за другим, самыми невероятными способами? Почему все происходящее так тесно переплетено с веселым детским стишком?",
+    "cover": "covers/i745869_yJsg8ub.jpg",
+    "buy_price": "800.00",
+    "rent_price_2w": "100.00",
+    "rent_price_1m": "200.00",
+    "rent_price_3m": "400.00",
+    "is_available": true,
+    "created_at": "2026-05-27T01:28:40.779Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 4,
+  "fields": {
+    "title": "Дюна",
+    "author": "Фрэнк Герберт",
+    "category": 3,
+    "year": 1965,
+    "description": "«Дю́на» — эпический научно-фантастический роман американского писателя Фрэнка Герберта, впервые опубликованный в 1963—1965 годах в виде серии глав в журнале Analog Science Fiction and Fact и в 1965 году впервые изданный отдельной книгой. Книга, сделавшая Герберта знаменитым, была удостоена премий Хьюго и Небьюла.",
+    "cover": "covers/242-0_fJGfQ8n.webp",
+    "buy_price": "1500.00",
+    "rent_price_2w": "200.00",
+    "rent_price_1m": "450.00",
+    "rent_price_3m": "600.00",
+    "is_available": true,
+    "created_at": "2026-05-27T01:30:14.227Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 6,
+  "fields": {
+    "title": "Мгла",
+    "author": "Стивен Кинг",
+    "category": 6,
+    "year": 1980,
+    "description": "По сюжету небольшой город Бриджтон окутывает плотный туман, в котором скрываются монстры. Главный герой и рассказчик Дэвид Дрейтон, укрывшийся со своим малолетним сыном в супермаркете, пытается пережить не только появление порождений тумана, но и фанатичную агрессию со стороны других выживших. В «Тумане» Кинг обращается к тематике техногенных страхов и религиозного фундаментализма.",
+    "cover": "covers/Mist2.jpg",
+    "buy_price": "1200.00",
+    "rent_price_2w": "300.00",
+    "rent_price_1m": "600.00",
+    "rent_price_3m": "1000.00",
+    "is_available": true,
+    "created_at": "2026-05-27T04:46:34.619Z"
+  }
+},
+{
+  "model": "books.book",
+  "pk": 7,
+  "fields": {
+    "title": "Введение в психоанализ",
+    "author": "Зигмунд Фрейд",
+    "category": 7,
+    "year": 1917,
+    "description": "В свое время идея Зигмунда Фрейда о влиянии полового инстинкта на психику и развитие человеческого общества произвела эффект разорвавшейся бомбы. Теория о бессознательном, которое влияет на все наши действия и поступки, и о сексуальном влечении как главной движущей силе отдельной личности и общества в целом и по сей день вызывает споры в научной среде, однако невозможно отрицать, что учение Фрейда о психоанализе внесло неоценимый вклад в развитие всей мировой психологии.\r\nПредлагаемое вниманию читателя издание представляет собой цикл лекций по введению в психоанализ, прочитанных Зигмундом Фрейдом в 1915–1917 годах.",
+    "cover": "covers/фрейд.webp",
+    "buy_price": "400.00",
+    "rent_price_2w": "100.00",
+    "rent_price_1m": "200.00",
+    "rent_price_3m": "300.00",
+    "is_available": true,
+    "created_at": "2026-05-27T04:50:39.472Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Категория",
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Категория",
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Категория",
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Категория",
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Книга",
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Книга",
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Книга",
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Книга",
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add Заказ",
+    "content_type": [
+      "books",
+      "order"
+    ],
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change Заказ",
+    "content_type": [
+      "books",
+      "order"
+    ],
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete Заказ",
+    "content_type": [
+      "books",
+      "order"
+    ],
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view Заказ",
+    "content_type": [
+      "books",
+      "order"
+    ],
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "add_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "change_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "delete_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view crontab",
+    "content_type": [
+      "django_celery_beat",
+      "crontabschedule"
+    ],
+    "codename": "view_crontabschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "add_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "change_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "delete_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view interval",
+    "content_type": [
+      "django_celery_beat",
+      "intervalschedule"
+    ],
+    "codename": "view_intervalschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "add_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "change_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "delete_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view periodic task",
+    "content_type": [
+      "django_celery_beat",
+      "periodictask"
+    ],
+    "codename": "view_periodictask"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "add_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "change_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "delete_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view periodic task track",
+    "content_type": [
+      "django_celery_beat",
+      "periodictasks"
+    ],
+    "codename": "view_periodictasks"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "add_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "change_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "delete_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view solar event",
+    "content_type": [
+      "django_celery_beat",
+      "solarschedule"
+    ],
+    "codename": "view_solarschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "add_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "change_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "delete_clockedschedule"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view clocked",
+    "content_type": [
+      "django_celery_beat",
+      "clockedschedule"
+    ],
+    "codename": "view_clockedschedule"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$J1TLEWrWHK8HWXdsrxRh3f$2RaM6hmg2PpW2FlSGn3Crm89gSmieHJHtn6+ldegf2k=",
+    "last_login": "2026-05-27T04:40:57.377Z",
+    "is_superuser": true,
+    "username": "book_admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "pao@r-19.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-22T07:16:45.261Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GDP0jpmXRUqSpQoX7jcwb9$xDi1xarR0z/7IkGzJmUwkHQahwS6eXIXenAh9ojE55s=",
+    "last_login": "2026-05-27T01:32:54.112Z",
+    "is_superuser": false,
+    "username": "Алексей",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T01:32:53.948Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MUxHAwYdg1LhmFTxZ2b2QG$lJrfPamKg5UCOTgbDZ/Twn3JjnsYAGzlysZNmEeYrOs=",
+    "last_login": "2026-05-27T04:41:25.340Z",
+    "is_superuser": true,
+    "username": "Администратор",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-27T04:39:18Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "books.order",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "Алексей"
+    ],
+    "book": 4,
+    "order_type": "buy",
+    "status": "active",
+    "created_at": "2026-05-27T01:33:09.527Z",
+    "expires_at": null,
+    "notified": false
+  }
+},
+{
+  "model": "books.order",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "book_admin"
+    ],
+    "book": 3,
+    "order_type": "rent_2w",
+    "status": "active",
+    "created_at": "2026-05-27T04:37:11.954Z",
+    "expires_at": "2026-06-10T04:37:11Z",
+    "notified": true
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-05-27T01:03:17.090Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "Фентези",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-05-27T01:03:38.208Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "Детектив",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-05-27T01:03:42.255Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "Фантастика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-05-27T01:04:05.770Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "4",
+    "object_repr": "Русская классика",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-05-27T01:17:43.375Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "1",
+    "object_repr": "Властелин колец — Джон Рональд Руэл Толкин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-05-27T01:18:58.197Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "2",
+    "object_repr": "Собачье сердце — Михаил Булгаков",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-05-27T01:28:40.780Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "3",
+    "object_repr": "Десять негритят — Агата Кристи",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-05-27T01:30:14.227Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "4",
+    "object_repr": "Дюна — Фрэнк Герберт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-05-27T03:00:34.879Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "Хентай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-05-27T03:02:35.180Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "5",
+    "object_repr": "Boku no Pico — Аой Мадока",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-05-27T03:03:19.030Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "5",
+    "object_repr": "Хентай",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-05-27T03:03:28.698Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "5",
+    "object_repr": "Boku no Pico — Аой Мадока",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-05-27T03:31:10.251Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "4",
+    "object_repr": "Дюна — Фрэнк Герберт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-05-27T03:33:22.607Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "1",
+    "object_repr": "Властелин колец — Джон Рональд Руэл Толкин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-05-27T03:33:43.624Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "3",
+    "object_repr": "Десять негритят — Агата Кристи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-05-27T03:33:50.213Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "2",
+    "object_repr": "Собачье сердце — Михаил Булгаков",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-05-27T03:38:39.210Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "1",
+    "object_repr": "Властелин колец — Джон Рональд Руэл Толкин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-05-27T03:38:48.197Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "3",
+    "object_repr": "Десять негритят — Агата Кристи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-05-27T03:38:51.987Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "4",
+    "object_repr": "Дюна — Фрэнк Герберт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-05-27T03:38:56.569Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "2",
+    "object_repr": "Собачье сердце — Михаил Булгаков",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-05-27T04:35:13.505Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "6",
+    "object_repr": "Хорор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-05-27T04:35:36.617Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "1",
+    "object_repr": "Властелин колец — Джон Рональд Руэл Толкин",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-05-27T04:35:44.101Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "3",
+    "object_repr": "Десять негритят — Агата Кристи",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-05-27T04:35:49.314Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "4",
+    "object_repr": "Дюна — Фрэнк Герберт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-05-27T04:35:56.111Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "2",
+    "object_repr": "Собачье сердце — Михаил Булгаков",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-05-27T04:38:19.722Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "books",
+      "order"
+    ],
+    "object_id": "2",
+    "object_repr": "book_admin — Десять негритят — Агата Кристи (Аренда 2 недели)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0423\\u0432\\u0435\\u0434\\u043e\\u043c\\u043b\\u0435\\u043d\\u0438\\u0435 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043b\\u0435\\u043d\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-05-27T04:39:57.671Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "Администратор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-05-27T04:41:09.473Z",
+    "user": [
+      "book_admin"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "Администратор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-05-27T04:46:34.620Z",
+    "user": [
+      "Администратор"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "6",
+    "object_repr": "Мгла — Стивен Кинг",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-05-27T04:46:56.532Z",
+    "user": [
+      "Администратор"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "6",
+    "object_repr": "Мгла — Стивен Кинг",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u0431\\u043b\\u043e\\u0436\\u043a\\u0430\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-05-27T04:48:52.832Z",
+    "user": [
+      "Администратор"
+    ],
+    "content_type": [
+      "books",
+      "category"
+    ],
+    "object_id": "7",
+    "object_repr": "Психология",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-05-27T04:50:39.473Z",
+    "user": [
+      "Администратор"
+    ],
+    "content_type": [
+      "books",
+      "book"
+    ],
+    "object_id": "7",
+    "object_repr": "Введение в психоанализ — Зигмунд Фрейд",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]

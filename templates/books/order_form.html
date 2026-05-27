@@ -1,0 +1,104 @@
+{% extends 'books/base.html' %}
+
+{% block title %}Оформить заказ{% endblock %}
+
+{% block content %}
+<style>
+    .order-option {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 18px 22px;
+        border: 2px solid var(--border);
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+        background: white;
+        margin-bottom: 12px;
+        user-select: none;
+    }
+    .order-option:hover {
+        border-color: var(--primary-light);
+        background: var(--primary-glow);
+        transform: translateX(4px);
+    }
+    .order-option:has(input:checked) {
+        border-color: var(--primary);
+        background: var(--primary-glow);
+        box-shadow: 0 0 0 3px rgba(109,40,217,0.08);
+    }
+    .order-option input[type=radio] {
+        width: 18px;
+        height: 18px;
+        accent-color: var(--primary);
+        flex-shrink: 0;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+    .option-name {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text);
+        display: block;
+        margin-bottom: 2px;
+    }
+    .option-price {
+        font-size: 1.05rem;
+        font-weight: 800;
+        color: var(--primary);
+        display: block;
+    }
+</style>
+
+<div style="max-width: 520px; margin: 0 auto;">
+    <a href="javascript:history.back()" class="btn btn-ghost" style="margin-bottom: 28px;">← Назад</a>
+
+    <div style="background: white; border-radius: 24px; padding: 36px; box-shadow: var(--shadow); border: 1px solid rgba(109,40,217,0.06);">
+        <h2 style="margin-bottom: 6px;">Оформить заказ</h2>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 32px;">{{ book.title }}</p>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <p style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 16px;">Выберите тип</p>
+
+            <label class="order-option">
+                <input type="radio" name="order_type" value="buy" required>
+                <div>
+                    <span class="option-name">💰 Купить</span>
+                    <span class="option-price">{{ book.buy_price }} ₽</span>
+                </div>
+            </label>
+
+            <label class="order-option">
+                <input type="radio" name="order_type" value="rent_2w">
+                <div>
+                    <span class="option-name">📅 Аренда 2 недели</span>
+                    <span class="option-price">{{ book.rent_price_2w }} ₽</span>
+                </div>
+            </label>
+
+            <label class="order-option">
+                <input type="radio" name="order_type" value="rent_1m">
+                <div>
+                    <span class="option-name">📅 Аренда 1 месяц</span>
+                    <span class="option-price">{{ book.rent_price_1m }} ₽</span>
+                </div>
+            </label>
+
+            <label class="order-option">
+                <input type="radio" name="order_type" value="rent_3m">
+                <div>
+                    <span class="option-name">📅 Аренда 3 месяца</span>
+                    <span class="option-price">{{ book.rent_price_3m }} ₽</span>
+                </div>
+            </label>
+
+            <button type="submit" class="btn btn-success" style="width: 100%; margin-top: 24px; padding: 14px; font-size: 1rem;">
+                Подтвердить заказ
+            </button>
+        </form>
+    </div>
+</div>
+{% endblock %}
