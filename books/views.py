@@ -9,7 +9,6 @@ def book_list(request):
     books = Book.objects.filter(is_available=True)
     categories = Category.objects.all()
 
-    # Фильтрация
     category_id = request.GET.get('category')
     author = request.GET.get('author')
     year = request.GET.get('year')
@@ -22,7 +21,6 @@ def book_list(request):
     if year:
         books = books.filter(year=year)
 
-    # Сортировка
     if sort == 'author':
         books = books.order_by('author')
     elif sort == 'year':
@@ -52,7 +50,6 @@ def create_order(request, pk):
     if request.method == 'POST':
         order_type = request.POST.get('order_type')
 
-        # Вычисляем дату окончания
         if order_type == Order.RENT_2W:
             expires_at = timezone.now() + timedelta(weeks=2)
         elif order_type == Order.RENT_1M:

@@ -133,7 +133,7 @@ LOGOUT_REDIRECT_URL = '/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_FROM_EMAIL = 'bookstore@example.com'
 
-# Celery 
+# Celery
 CELERY_BROKER_URL = get_env('REDIS_URL', 'redis://localhost:6379/0')
 CELERY_RESULT_BACKEND = get_env('REDIS_URL', 'redis://localhost:6379/0')
 CELERY_TIMEZONE = 'Europe/Moscow'

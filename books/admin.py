@@ -16,7 +16,7 @@ class BookAdmin(admin.ModelAdmin):
     list_display = ['title', 'author', 'category', 'year', 'buy_price', 'is_available']
     list_filter = ['category', 'is_available', 'year']
     search_fields = ['title', 'author']
-    list_editable = ['buy_price', 'is_available']  # редактировать прямо в списке
+    list_editable = ['buy_price', 'is_available']
     ordering = ['title']
 
 
@@ -26,7 +26,7 @@ class OrderAdmin(admin.ModelAdmin):
     list_filter = ['status', 'order_type']
     search_fields = ['user__username', 'book__title']
     list_editable = ['status']
-    actions = ['send_expiry_reminder']  # кнопка действия в списке заказов
+    actions = ['send_expiry_reminder']
 
     def send_expiry_reminder(self, request, queryset):
         sent = 0

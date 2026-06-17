@@ -8,7 +8,6 @@ app = Celery('bookstore')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
-# Расписание автоматических задач
 app.conf.beat_schedule = {
     'check-expiring-rentals': {
         'task': 'books.tasks.check_expiring_rentals',

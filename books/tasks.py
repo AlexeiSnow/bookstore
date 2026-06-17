@@ -8,11 +8,9 @@ from .models import Order
 
 @shared_task
 def check_expiring_rentals():
-    """Отправляет напоминания за 3 дня до окончания аренды"""
     now = timezone.now()
     warning_date = now + timedelta(days=3)
 
-    # Находим заказы которые истекают через 3 дня
     expiring_orders = Order.objects.filter(
         status=Order.STATUS_ACTIVE,
         expires_at__date=warning_date.date(),
@@ -44,7 +42,6 @@ def check_expiring_rentals():
 
 @shared_task
 def update_expired_orders():
-    """Автоматически помечает просроченные заказы"""
     now = timezone.now()
 
     expired_count = Order.objects.filter(
